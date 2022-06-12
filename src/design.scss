@@ -1,10 +1,5 @@
 
   
-  .Shop {
-    color: rgb(0, 209, 70);
-  }
-  
-  
   
   .sticky {
     text-align: center !important;
@@ -29,7 +24,7 @@
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #a60c51 !important;
+    background-color: #000000 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -138,6 +133,19 @@
   }
   
   
-  
+  .rotate{
+    
+    animation: animate 15s linear infinite;
+    perspective: 800px;
+}
+@keyframes animate {
+0%{
+   transform: rotateY(0deg);
+}
+100%{
+    transform: rotateY(360deg);
+}
+}
+
   
   

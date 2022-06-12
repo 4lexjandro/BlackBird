@@ -33,7 +33,7 @@ const Bar = () => {
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex">
-          <img src={red} width="100" height="100" />
+          <img className="rotate" src={red} width="100" height="100" />
           
           
         </Navbar.Brand>
