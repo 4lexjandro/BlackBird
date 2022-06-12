@@ -29,7 +29,6 @@ const Bar = () => {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex">
@@ -63,39 +62,39 @@ const Bar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-               Home
+              <Nav.Link as={Link} to="/sr71" onClick={() => updateExpanded(false)}>
+               SR-71
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/celestial23"
                 onClick={() => updateExpanded(false)}
               >
-                 About
+                 C - 23
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/contact"
+                to="/luminous66"
                 onClick={() => updateExpanded(false)}
               >
                {" "}
-                Contact
+                L - 66
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/work"
+                to="/m4"
                 onClick={() => updateExpanded(false)}
               >
-                 Work 
+                 M - 4
               </Nav.Link>
             </Nav.Item>
 

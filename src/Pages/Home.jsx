@@ -1,7 +1,10 @@
 import React from 'react'
 import Homepage from '../assets/Homepage.png'
+import Celestial from './HomeCards/Celestial.jsx'
+import M4 from './HomeCards/M4.jsx'
+import Luminous from './HomeCards/Luminous.jsx'
+import SR71 from './HomeCards/SR71.jsx'
 import Bar from '../Parts/Bar.jsx'
-import Models from './HomeCards/Models.jsx'
 
 export const Home = () => {
 
@@ -11,11 +14,11 @@ export const Home = () => {
 
   return (
     <>
+    <Bar />
     
     
     <div>
-      <Bar/>
-        <img src={Homepage} width="1200" height="1200" />
+      <SR71 />
     </div>
     <br/>
      

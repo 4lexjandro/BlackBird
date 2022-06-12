@@ -1,11 +1,7 @@
 
   
   
-  .sticky {
-    text-align: center !important;
-  }
-  
-  
+ 
   
   .navbar {
     position: fixed !important;
@@ -149,3 +145,48 @@
 
   
   
+
+
+
+.sr {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.area .overlay {
+  position: absolute;
+  margin: auto; 
+  bottom: 30%;
+  right: 20%;
+  font-weight: bold;
+  text-align: right;
+  font-size: 30px;
+}
+
+
+
+.button_slide {
+  color: #FFF;
+  border: 2px solid rgb(237, 237, 237);
+  border-radius: 40%;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  margin: auto;
+  width: 50%;
+  
+}
+
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #000000;
+}
+
