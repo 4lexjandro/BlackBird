@@ -1,5 +1,4 @@
 import React from 'react'
-import Homepage from '../assets/Homepage.png'
 import Celestial from './HomeCards/Celestial.jsx'
 import M4 from './HomeCards/M4.jsx'
 import Luminous from './HomeCards/Luminous.jsx'
